@@ -1,0 +1,267 @@
+/* <!------------------------------------ footer--------------------------- --> */
+.footer{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    
+}
+.f1{
+    width: 20%;
+    height:32rem ;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+
+
+
+
+}
+
+.f1_text{
+    color: rgb(42, 134, 165);
+    display: flex;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 25px;
+    width: 100%;
+    margin-bottom: 10px;
+    
+ 
+}
+
+.apps{
+    width: 100%;
+
+    /* background-color: blue; */
+    display: flex;
+
+
+}
+.ios{
+
+    display: flex;
+    border-radius: 9px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 110px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    margin-left: 10px;
+}
+.android{
+    display: flex;
+    border-radius: 9px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 110px;
+    height: 50px;
+    background-color: white;
+    color: black;
+
+}
+.socialmidea{
+    width: 100%;
+    /* background-color: brown; */
+    height: 30%;
+    display: flex;
+    align-items: center;
+}
+
+
+.icon{
+    font-size: 35px;
+    color: white  ;
+}
+
+
+.f2{
+    width: 20%;
+    height:25rem ;
+   
+    display: flex;
+    flex-direction: column;
+  
+}
+
+
+.f2_text{
+font-size: 25px;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+color: rgb(42, 134, 165);
+width: 100%;
+height: 33%;
+display: flex;
+align-items: end;
+
+}
+.f2_box{
+   margin-top: 10px;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.imgbox{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+   display: flex;
+   justify-content: center;
+  align-items: center;
+    color:  white;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin:  0px 2px;
+    height: 30px;
+}
+
+
+.f3{
+    width: 30%;
+    height:25rem ;
+
+}
+.f3_logo{
+    width: 100%;
+    height: 30%;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+    font-size: 25px;
+    color: rgb(42, 134, 165);
+    display: flex;
+    align-items: end;
+}
+.f3_text{
+    color:white;
+    font-size: 25px; 
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+/* -----------------media-------- */
+
+@media (max-width:619px) {
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .f1 , .f2 ,.f3{
+        width: 100%;
+    }
+    .f2_text, .f2_box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .f3_logo,.f3_text{
+          display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+.socialmidea , .apps , .f1_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+}
+/* -----------------hover------------ */
+.android:hover{
+    background-color:rgb(42, 134, 165) ;
+}
+.ios:hover{
+    background-color:rgb(42, 134, 165) ;
+}
+ .icon:hover{
+    color:rgb(42, 134, 165) ;
+}
+.imgbox:hover{
+    background-color:rgb(42, 134, 165) ;
+}
+
+
+/* <!-- ------------------------footer 2----------------------- --> */
+.footer2{
+  
+    width: 100%;
+    height: 100%;
+   background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ff1,.ff2 ,.ff3{
+    width: 20%;
+    height: 100px;
+ 
+    display: flex;
+    align-items: center;
+}
+
+
+.ff1_text, .ff2_text{
+    color: white;
+}
+span{
+    margin-left: 30px;
+}
+.ff3{
+    justify-content: end;
+}
+.devloper{
+   
+   border: 1px solid white;
+   width: 120px;
+   border-radius: 10px;
+   height: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+   background-color:rgb(42, 134, 165) ;
+}
+.devloper a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+/* -----------------media-------- */
+
+@media (max-width:619px) {
+    .footer2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .ff1 , .ff2 ,.ff3{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+ 
+}
+/* -------------hover------------- */
+.devloper:hover{
+  background-color: black;
+
+}
